@@ -47,6 +47,7 @@ jobs:
 
       - name: Toolchain info
         run: |
+          chmod +x gradlew
           xcodebuild -version
           sw_vers
 
